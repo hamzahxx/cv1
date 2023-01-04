@@ -1,5 +1,10 @@
+
+.navnospace{
+    word-spacing: normal;
+}
 body{
-    background-color: #F8EDE3;
+    background: rgb(130,207,255);
+    background: linear-gradient(90deg, rgba(130,207,255,1) 0%, rgba(154,251,255,1) 100%);
 }
 .goal{
     font-size: 115%;
@@ -13,16 +18,21 @@ body{
 .txt{
     text-align: center;
 }
+.txt2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .edup{
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
     text-indent: 10px;
 }
-a.btn{
+.btn , .submit{
     background-color: white;
     color: black;
-    border: 2px solid #DFD3C3;
+    border: solid 2px #82AAE3;
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
@@ -30,9 +40,10 @@ a.btn{
     transition-duration: 0.4s;
     transform-origin: top left;
 }
-a.btn:hover{
-    background-color: #D0B8A8;
+.btn:hover{
+    background-color: #82AAE3;
     color: white;
+    cursor: pointer;
 }
 table{
     border-collapse: collapse;
@@ -61,5 +72,46 @@ hr{
     width: 15%;
 }
 .ht{
+    margin-top: 0px;
     text-align: center;
+}
+.tickbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 48.7%;
+    margin-top: 10px;
+}
+.tickinput {
+    position: absolute; transform: scale(0); 
+}
+.tickinput:checked ~ .checkbox{ 
+    transform: rotate(45deg) ;
+    width: 7px;
+    margin-left: 8px;
+    border-color: #24c78e;
+    border-top-color: transparent; 
+    border-left-color: transparent;
+    border-radius: 0;
+}
+.checkbox {
+    display: block; width: inherit; height: inherit;
+    border: 3px solid #434343; border-radius: 6px;
+    transition: all 0.375s;
+}
+.paraone {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    border: solid 2px #82AAE3;
+}
+.submit:hover{
+    background-color: #82AAE3;
+    color: white;
+    cursor: pointer;
 }
