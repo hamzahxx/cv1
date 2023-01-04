@@ -1,7 +1,3 @@
-
-.navnospace{
-    word-spacing: normal;
-}
 body{
     background: rgb(130,207,255);
     background: linear-gradient(90deg, rgba(130,207,255,1) 0%, rgba(154,251,255,1) 100%);
