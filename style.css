@@ -1,113 +1,28 @@
-body{
-    background: rgb(130,207,255);
-    background: linear-gradient(90deg, rgba(130,207,255,1) 0%, rgba(154,251,255,1) 100%);
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.goal{
-    font-size: 115%;
+
+body {
+    padding: 20px 40px;
 }
-.bio{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 28%;
+
+h1 {
+  font-weight: 100;
 }
-.txt{
-    text-align: center;
+
+h2 {
+  font-weight: 100;
+  color: rgb(97, 149, 19);
 }
-.txt2{
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+h3 {
+  font-weight: 100;
+  color: rgb(90, 167, 244);
+  padding-top: 10px;
+  line-height: 1;
 }
-.edup{
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-    text-indent: 10px;
-}
-.btn , .submit{
-    background-color: white;
-    color: black;
-    border: solid 2px #82AAE3;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    transform: matrix3d();
-    transition-duration: 0.4s;
-    transform-origin: top left;
-}
-.btn:hover{
-    background-color: #82AAE3;
-    color: white;
-    cursor: pointer;
-}
-table{
-    border-collapse: collapse;
-}
-td.ouuu{
-    text-align: center;
-    padding-top: 0.5em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    padding-bottom: 0.5em;
-}
-td.damn{
-    text-align: center;
-    padding-top: 0.5em;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    padding-bottom: 0.5em;
-}
-.list{
-    padding-left: 42%
-}
-hr{
-    background-color: black;
-    border-style: none;
-    height: 1px;
-    width: 15%;
-}
-.ht{
-    margin-top: 0px;
-    text-align: center;
-}
-.tickbox {
-    display: block;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    padding-left: 48.7%;
-    margin-top: 10px;
-}
-.tickinput {
-    position: absolute; transform: scale(0); 
-}
-.tickinput:checked ~ .checkbox{ 
-    transform: rotate(45deg) ;
-    width: 7px;
-    margin-left: 8px;
-    border-color: #24c78e;
-    border-top-color: transparent; 
-    border-left-color: transparent;
-    border-radius: 0;
-}
-.checkbox {
-    display: block; width: inherit; height: inherit;
-    border: 3px solid #434343; border-radius: 6px;
-    transition: all 0.375s;
-}
-.paraone {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-.submit {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 20px;
-    border: solid 2px #82AAE3;
-}
-.submit:hover{
-    background-color: #82AAE3;
-    color: white;
-    cursor: pointer;
+
+li {
+  line-height: 1.2;
 }
